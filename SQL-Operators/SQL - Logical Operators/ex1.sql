@@ -7,7 +7,7 @@ SELECT * FROM CUSTOMERS WHERE AGE IS NOT NULL;
 
 -- The percent sign ( %) represents zero, one, or multiple characters.
 -- The following statement finds all employees whose first name starts with the string "ko"
-SELECT * FROM CUSTOMERS WHERE NAME LIKE 'Ko%';
+SELECT * FROM CUSTOMERS WHERE NAME LIKE 'Me%';
 
 -- The underscore sign ( _) represents a single character.
 

@@ -1,0 +1,8 @@
+CREATE TABLE CUSTOMERS(
+   ID   INT              NOT NULL,
+   NAME VARCHAR (20)     NOT NULL,
+   AGE  INT              NOT NULL UNIQUE,
+   ADDRESS  CHAR (25) ,
+   SALARY   DECIMAL (18) DEFAULT 5000.00,       
+   PRIMARY KEY (ID)
+);

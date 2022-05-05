@@ -1,0 +1,3 @@
+UPDATE CUSTOMERS
+SET city = 'rabat'
+WHERE ID = 6;

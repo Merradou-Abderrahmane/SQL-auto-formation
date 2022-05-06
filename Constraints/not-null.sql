@@ -1,4 +1,8 @@
 CREATE TABLE CUSTOMERS(
    ID   INT              NOT NULL,
-   NAME VARCHAR (20)     NOT NULL,
+   NAME VARCHAR (20)     NOT NULL
    );
+
+-- add a constraint
+   ALTER TABLE CUSTOMERS
+   MODIFY NAME  VARCHAR (20) NOT NULL;

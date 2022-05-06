@@ -1,0 +1,2 @@
+-- Donnez les numéros des fournisseurs qui 
+-- approvisionnent l"’"usine de numéro 2 en un produit rouge

@@ -2,8 +2,8 @@
 -- livrés par le fournisseur de numéro 2
 
 SELECT nom,couleur from produit,puf 
-Inner join puf on puf.idProduit = produit.id 
-where idFourniseur = 2;
+Inner join puf on puf.numP = produit.num 
+where numF = 2;
 
 
 

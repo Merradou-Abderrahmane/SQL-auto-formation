@@ -1,7 +1,7 @@
 CREATE TABLE ORDERS (
    ID          INT        NOT NULL,
    DATE        DATETIME, 
-   CUSTOMER_ID INT references CUSTOMERS(ID),
+   foreign key(CUSTOMER_ID) INT references CUSTOMERS(ID),
    PRIMARY KEY (ID)
 );
 

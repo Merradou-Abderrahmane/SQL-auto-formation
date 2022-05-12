@@ -1,0 +1,1 @@
+SELECT * FROM employés WHERE comm IS NOT NULL ;

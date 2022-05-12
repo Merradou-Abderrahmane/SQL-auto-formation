@@ -1,1 +1,1 @@
--- 
+-- Donnez le plus bas salaire moyen par proffesion.

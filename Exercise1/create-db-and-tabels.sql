@@ -9,7 +9,8 @@ CREATE TABLE employés( eno int PRIMARY KEY AUTO_INCREMENT NOT null,
                        prof varchar(70) not null,
                        dateemb date NOT null,
                        sal decimal(18 , 2 ) not null,
-                       comm decimal(10 , 2 ) ,
+                       -- an employee can || can't have a commition
+                       comm decimal(10 , 2 ) , 
                        dno int not null ) ; 
 
 -- create départements table

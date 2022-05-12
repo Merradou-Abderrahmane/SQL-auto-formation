@@ -12,6 +12,3 @@ ALTER TABLE ORDERS
 -- drop foreign key constraint
 ALTER TABLE ORDERS
    DROP FOREIGN KEY;
-
-
-   
